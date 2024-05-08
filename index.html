@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Exercise Frontend Mentor, Expenses chart component">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <title>Frontend Mentor | Expenses chart component</title>
+    </head>
+    <body>
+
+      <header class="header-container">
+        <h1 class="sr-only">Expenses chart</h1>
+        <h3 class="title">My balance
+          <span class="price">$921.48</span></h3>
+        <img class="image-logo" src="./images/logo.svg" alt="logo-brand">
+      </header>
+
+      <main class="container">
+
+        <section class="main-container">
+          <h2 class="main-title">Spending - Last 7 days</h2>
+          <div class="chart" id="week">
+            <div class="graph" id="mon"><span class="info"></span><span class="day">mon</span></div>
+            <div class="graph" id="tue"><span class="info"></span><span class="day">tue</span></div>
+            <div class="graph" id="wed"><span class="info"></span><span class="day">wed</span></div>
+            <div class="graph" id="thu"><span class="info"></span><span class="day">thu</span></div>
+            <div class="graph" id="fri"><span class="info"></span><span class="day">fri</span></div>
+            <div class="graph" id="sat"><span class="info"></span><span class="day">sat</span></div>
+            <div class="graph" id="sun"><span class="info"></span><span class="day">sun</span></div>
+          </div>
+        </section>
+
+        <hr>
+
+        <section class="bottom-container">
+          <h3 class="title">Total this month
+          <span class="price">$478.33</span></h3>
+          <p class="lastMonth"><span class="percent">+2.4%</span>
+            from last month</p>
+        </section>
+
+      </main>
+
+    <script  src="./script.js"></script>
+
+    </body>
+
+</html>
