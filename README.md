@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot desktop]().
-![screenshot mobile]().
+![screenshot desktop](https://github.com/Lo-Deck/Expenses-chart/blob/main/screenshot/Expenses%20chart%20component-desktop.png).
+![screenshot mobile](https://github.com/Lo-Deck/Expenses-chart/blob/main/screenshot/Expenses%20chart%20component-mobile.png).
 
 ### Links
 
-- Solution URL: [Repositories](https://github.com/Lo-Deck/Notifications-page).
-- Live Site URL: [Website](https://lo-deck.github.io/Notifications-page/).
+- Solution URL: [Repositories](https://github.com/Lo-Deck/Expenses-chart).
+- Live Site URL: [Website](https://lo-deck.github.io/Expenses-chart/).
 
 
 ## My process
