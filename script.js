@@ -29,6 +29,13 @@ for(let i = 0; i < week.length; i++)
 
 let i = 0;
 let whatDay = date.getDay()-1;
+
+
+if(whatDay === -1)
+{
+    whatDay = 6;
+}
+
 //console.log(whatDay);
 
 fetch('./data.json')
